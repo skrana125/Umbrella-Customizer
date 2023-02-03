@@ -1,0 +1,180 @@
+/* Common styling*/
+
+html,body{
+    background-color: turquoise;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+
+/* Column editing*/
+.umbrella {
+    width: 65%;
+    position: relative;
+    vertical-align: bottom;
+    display: table-cell;
+  }
+  
+  #logo {
+    height: 50px;
+    width: auto;
+    bottom: 0;
+    left: 36%;
+    top: 90%;
+    vertical-align: bottom;
+    position: relative;
+  }
+
+  #logo {
+  height: 50px;
+  width: auto;
+  bottom: 0;
+  left: 36%;
+  top: 90%;
+  vertical-align: bottom;
+  position: relative;
+}
+
+
+.umbrella img {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .umbrella img.active {
+    opacity: 1;
+  }
+  
+.right{
+    width: 35%;
+    margin-top: 60px;
+  }
+
+
+  /* Product Description */
+.product {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+.product h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product h3 {
+  font-weight: 50;
+  font-size: 40px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+.cart-btn {
+  display: inline-block;
+  background:url('./umbrellas/upload_icon.svg') no-repeat left center;
+  padding-left:20px;
+  background-color: #24aee1;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 60px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #219cc9;
+}
+
+/* Logo Upload */
+.product-upload {
+  display: flex;
+  align-items: center;
+}
+
+
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+
+
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+
+}
+
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+
+/* Logo Upload */
+.product-upload {
+  display: flex;
+  align-items: center;
+}
+
+
+.cart-btn {
+  display: inline-block;
+  background:url('./umbrellas/upload_icon.svg') no-repeat left center;
+  padding-left:20px;
+  background-color: #24aee1;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 60px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #219cc9;
+}
+/* Umbrella Color */
+.product-color {
+  margin-bottom: 30px;
+}
+
+.choose-color div{
+  display: inline;
+}
+
+.choose-color input[type="radio"] #blue + label span{
+  background-color: slateblue;
+}
